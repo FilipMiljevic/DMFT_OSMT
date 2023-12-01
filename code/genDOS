@@ -32,6 +32,7 @@ for n in range(nx):
    for m in range(no_orb):
       d= dos(x,D[m])/norm[m]
       outf.write( str(d) + '\t' )
-outf.write('\n')
+   
+   outf.write('\n')
 outf.close()
 
