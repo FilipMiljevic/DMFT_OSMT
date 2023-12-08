@@ -17,21 +17,17 @@ def dos(x,D):
 
    return Semicircle(x,D)
 
-# first normalize each DOS to 1 before writing
-dx = 4*np.max(D)/nx
-norm=[0,0]
-for m in range(no_orb):
-   norm[m]=dos(0,D[m])
+
 
 outf = open('dos.dat','w')
 outf.write( str(nx) + '\n' )
 for n in range(nx):
    x = -2*np.max(D) + n*dx
    outf.write( str(x) + '\t')
-
-   for m in range(no_orb):
-      d= dos(x,D[m])/norm[m]
-      outf.write( str(d) + '\t' )
+   for s in range(2):
+      for m in range(no_orb):
+         d= dos(x,D[m])
+         outf.write( str(d) + '\t' )
    
    outf.write('\n')
 outf.close()
