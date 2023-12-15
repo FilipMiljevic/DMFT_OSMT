@@ -1,0 +1,110 @@
+Reading Uijkl.dat...
+Number of non-zero elements in U tensor is 32
+dim of Hilbert space 16
+# of blocks 14
+# of sectors 14
+Sector 0 : dim = 1, min energy = -0.12436, max energy = -0.12436
+Sector 1 : dim = 1, min energy = -3.34327, max energy = -3.34327
+Sector 2 : dim = 1, min energy = -3.34327, max energy = -3.34327
+Sector 3 : dim = 2, min energy = -4.06218, max energy = -3.06218
+Sector 4 : dim = 1, min energy = -3.34327, max energy = -3.34327
+Sector 5 : dim = 1, min energy = -5.06218, max energy = -5.06218
+Sector 6 : dim = 2, min energy = -5.06218, max energy = -4.06218
+Sector 7 : dim = 1, min energy = -3.28109, max energy = -3.28109
+Sector 8 : dim = 1, min energy = -3.34327, max energy = -3.34327
+Sector 9 : dim = 1, min energy = -5.06218, max energy = -5.06218
+Sector 10 : dim = 1, min energy = -3.28109, max energy = -3.28109
+Sector 11 : dim = 1, min energy = -3.28109, max energy = -3.28109
+Sector 12 : dim = 1, min energy = -3.28109, max energy = -3.28109
+Sector 13 : dim = 1, min energy = 0, max energy = 0
+ Max eigen energy = 0
+ Min eigen energy = -5.06218
+ Throwing away high energy states...
+Sector 0 : dim = 1, min energy = -0.12436, max energy = -0.12436
+Sector 1 : dim = 1, min energy = -3.34327, max energy = -3.34327
+Sector 2 : dim = 1, min energy = -3.34327, max energy = -3.34327
+Sector 3 : dim = 2, min energy = -4.06218, max energy = -3.06218
+Sector 4 : dim = 1, min energy = -3.34327, max energy = -3.34327
+Sector 5 : dim = 1, min energy = -5.06218, max energy = -5.06218
+Sector 6 : dim = 2, min energy = -5.06218, max energy = -4.06218
+Sector 7 : dim = 1, min energy = -3.28109, max energy = -3.28109
+Sector 8 : dim = 1, min energy = -3.34327, max energy = -3.34327
+Sector 9 : dim = 1, min energy = -5.06218, max energy = -5.06218
+Sector 10 : dim = 1, min energy = -3.28109, max energy = -3.28109
+Sector 11 : dim = 1, min energy = -3.28109, max energy = -3.28109
+Sector 12 : dim = 1, min energy = -3.28109, max energy = -3.28109
+Sector 13 : dim = 1, min energy = 0, max energy = 0
+ Max eigen energy = 0
+ Min eigen energy  = -5.06218
+Reference energy -5.06218
+Dim of ket: sector 0 inner 1 outer 1
+Dim of ket: sector 1 inner 1 outer 1
+Dim of ket: sector 2 inner 1 outer 1
+Dim of ket: sector 3 inner 2 outer 2
+Dim of ket: sector 4 inner 1 outer 1
+Dim of ket: sector 5 inner 1 outer 1
+Dim of ket: sector 6 inner 2 outer 2
+Dim of ket: sector 7 inner 1 outer 1
+Dim of ket: sector 8 inner 1 outer 1
+Dim of ket: sector 9 inner 1 outer 1
+Dim of ket: sector 10 inner 1 outer 1
+Dim of ket: sector 11 inner 1 outer 1
+Dim of ket: sector 12 inner 1 outer 1
+Dim of ket: sector 13 inner 1 outer 1
+The following swap updates will be performed.
+Update #0 generated from template #0
+flavor 0 to flavor 1
+flavor 1 to flavor 0
+flavor 2 to flavor 3
+flavor 3 to flavor 2
+Checking if the simulation is finished: 2 sec passed.
+Checking if the simulation is finished: 4 sec passed.
+Checking if the simulation is finished: 6 sec passed.
+Checking if the simulation is finished: 8 sec passed.
+Checking if the simulation is finished: 10 sec passed.
+Checking if the simulation is finished: 12 sec passed.
+Checking if the simulation is finished: 14 sec passed.
+Checking if the simulation is finished: 16 sec passed.
+Checking if the simulation is finished: 18 sec passed.
+Checking if the simulation is finished: 20 sec passed.
+Checking if the simulation is finished: 22 sec passed.
+Checking if the simulation is finished: 24 sec passed.
+Checking if the simulation is finished: 26 sec passed.
+Checking if the simulation is finished: 28 sec passed.
+Checking if the simulation is finished: 30 sec passed.
+Thermalization process done after 5160 steps.
+The number of segments for sliding window update is 7.
+Perturbation orders (averaged over processes) are the following:
+ flavor 0 2
+ flavor 1 0
+ flavor 2 11
+ flavor 3 8
+
+Checking if the simulation is finished: 41 sec passed.
+Checking if the simulation is finished: 52 sec passed.
+Checking if the simulation is finished: 63 sec passed.
+Checking if the simulation is finished: 74 sec passed.
+Checking if the simulation is finished: 85 sec passed.
+Checking if the simulation is finished: 96 sec passed.
+Checking if the simulation is finished: 107 sec passed.
+Checking if the simulation is finished: 118 sec passed.
+Checking if the simulation is finished: 129 sec passed.
+
+==== Thermalization analysis ====
+Perturbation orders just before and after measurement steps are 22.1583 and 22.725.
+
+==== Number of Monte Carlo steps spent in configuration spaces ====
+Z function : 5.11362
+G1 : 4.88638
+
+==== Acceptance updates of operators hybridized with bath ====
+ 1-pair_insertion_remover : 0.182795
+ 2-pair_insertion_remover : 0.0181852
+ Single_operator_shift_updater : 0.151215
+ Operator_pair_flavor_updater : 0.250011
+
+==== Acceptance rates of worm updates ====
+ G1_ins_rem : 0.0781483
+ G1_mover : 0.296778
+ G1_flavor_changer : 0.0251224
+ G1_ins_rem_hyb : 0.233766
