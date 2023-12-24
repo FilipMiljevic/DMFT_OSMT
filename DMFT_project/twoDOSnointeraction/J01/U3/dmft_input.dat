@@ -1,0 +1,16 @@
+2        # Number of orbitals
+500      # Number of imag. Matsubara frequencies
+2048     # Number of imag. time points
+3.0      # Interaction U value [eV]
+0.1      # Interaction J value [eV]
+2.0      # t value (half bandwidth, Bethe lattice) [eV]
+2.0      # total number of electrons; if this is negative, the next line is a fixed chemical potential
+0.001    # tolerated error on total charge; (or fix chemical potential if N_e<0)
+40.0     # inverse temperature beta [1/eV]
+1        # enforce paramagentism
+0        # Initialize metallic [0] or insulating [1] calculation
+7       # number of DMFT iterations
+1.0      # mixing factor: 1.0=take 100% of the new result
+0        # restart from old calculation (Sigma.dat needed)
+4        # number of MPI threads
+0        # print additional debugging output
